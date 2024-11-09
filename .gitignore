@@ -1,0 +1,14 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variables file
+*.tfvars
+
+# Ignore local Terraform plan files
+*.tfplan
+
+# Ignore provider binaries
+.terraform/providers/
